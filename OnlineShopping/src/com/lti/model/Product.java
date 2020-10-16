@@ -4,10 +4,27 @@ public class Product {
 	
 	int productId;
 	String productName;
+
+	
+	String productDescription;
+	int quantity;
+	
+	public int getQuantity() {
+		return quantity;
+	}
+	
+	public String getProductDescription(){
+		return productDescription;
+	}
+	
+	public int getProductId() {
+		return productId;
+
 	int x;
 	
 	public int getX() {
 		return x;
+
 	}
 	
 	public int getProductId() {
