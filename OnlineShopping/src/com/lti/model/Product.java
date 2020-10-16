@@ -4,6 +4,22 @@ public class Product {
 	
 	int productId;
 	String productName;
+	
+	String productDescription;
+	int quantity;
+	
+	public int getQuantity() {
+		return quantity;
+	}
+	
+	public String getProductDescription(){
+		return productDescription;
+	}
+	
+	public int getProductId() {
+		return productId;
+	}
+	
 	public int getProductId() {
 		return productId;
 	}
